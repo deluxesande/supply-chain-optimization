@@ -1,5 +1,5 @@
 // pages/api/transferAsset.js
-import { transferAsset } from "../../blockchain/utils/fabric";
+import { transferAsset } from "@/blockchain/utils/fabric";
 
 export default async function handler(req, res) {
     if (req.method === "POST") {
